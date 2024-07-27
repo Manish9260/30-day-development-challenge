@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+<style>
+  body{
+    background-image:  url("https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+background-size: cover;
+background-repeat: no-repeat;
+}
+</style>
+
+  </head>
+<body >
+    <div class="booking-form" style="margin-top: 120px;">
+        <h2 style="text-align: center;">Book a Table</h2>
+        <div class="fl1">
+          <div class="tmInput" style="margin-right: 10px;" >
+            <form action="connect.php" method="post">
+            <input name="Name" placeholder="Your Name" type="text" >
+          </div>
+        </div>
+        <div class="fl1" style="margin-right: 15px;" >
+          <div class="tmInput">
+            <input name="Surname" placeholder="Your Surname" type="text">
+          </div>
+        </div>
+        <div class="fl1" style="margin-right: 15px;" >
+          <div class="tmInput">
+            <input name="Email" placeholder="Your Email" type="email" >
+          </div>
+        </div>
+        <div class="fl1" style="margin-right: 15px;" >
+          <div class="tmInput">
+            <input name="Phone" placeholder="Your Phone" type="tel">
+          </div>
+        </div>
+        <div class="fl1" style="margin-right: 15px;" >
+          <div class="tmInput">
+            <input name="Date" placeholder="Date" type="date" >
+          </div>
+        </div>
+        <div class="fl1" style="margin-right: 15px;" > 
+          <div class="tmInput">
+            <input name="Time" placeholder="Time" type="time">
+          </div>
+        </div>
+        <div class="fl1" style="margin-right: 15px;" >
+          <div class="tmInput">
+            <textarea name="Message" placeholder="Message" '></textarea>
+          </div>
+        </div>
+        <button type="submit" style="background-color: green; color: white; border-radius: 10px;">Book a Table</button>
+      </div>
+    </form>
+      <script src="script.js"></script>
+</body>
+</html>
